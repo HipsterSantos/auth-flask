@@ -1,0 +1,15 @@
+Flask>=2.0.0
+Flask-SQLAlchemy
+Flask-JWT-Extended
+Flask-WTF
+Flask-Limiter
+Flask-Mail
+Flask-Cors
+Flask-Babel
+Flask-RESTful
+Flask-Injector
+Flask-Login
+Flask-Caching
+Flask-RESTPlus
+SQLAlchemy
+python-dotenv
