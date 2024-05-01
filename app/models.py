@@ -1,6 +1,6 @@
 from extension import db,jwt
 from werkzeug.security import generate_password_hash,check_password_hash
-class User:
+class User(db.models):
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(64),unique=True,nullable=False)
     password_hash = db.Column(db.String(128),nullable=False)
